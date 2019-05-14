@@ -1,0 +1,16 @@
+version = 1
+
+test_patterns = [
+  'tests/**'
+]
+
+exclude_patterns = [
+  'docs/**',
+  'examples/**',
+  'splunklib/six.py'
+]
+
+[[analyzers]]
+name = 'python'
+enabled = true
+runtime_version = '2.x.x'
